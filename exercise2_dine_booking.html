@@ -7,41 +7,44 @@
     </title>
 
 <body>
-    <h1>
-        <center> Dine Booking </center>
-    </h1>
+   
     <Center>
         <form name="DineBooking">
-            <div>
-                <label for="visitorName"> Visitor Name</label>
-                <input type="text" name="visitorName" id="visitorName" autofocus maxlength="20" required>
-            </div>
-            <div>
-                <label for="numberOfMembers"> Number Of Members </label>
-                <input type="number" id="numberOfMembers" min="1" max="99" required>
-            </div>
-            <div>
-                <label for="contactNumber"> Contact Number </label>
-                <input type="number" id="contactNumber" min="1" max="99" required>
-            </div>
-            <div><label for="emailId">Email</label>
-                <input type="email" name="email" id="emailId" required>
-            </div>
-            <div>
-                <label for="typeOfFood"> Type Of Food </label>
-                <input type="checkBox" name="typeOfFood" id="North Indian" value="North Indian" checked> North Indian
+            <h1>
+                <center> Dine Booking </center>
+            </h1>
+            <table>
+            <tr>
+               <td> <label for="visitorName"> Visitor Name</label> </td>
+               <td> <input type="text" name="visitorName" id="visitorName" autofocus maxlength="20" required> </td>
+            </tr>
+            <tr>
+               <td> <label for="numberOfMembers"> Number Of Members </label> </td>
+              <td>   <input type="number" id="numberOfMembers" min="1" max="99" required> </td>
+            </tr>
+            <tr>
+               <td> <label for="contactNumber"> Contact Number </label></td>
+                <td><input type="number" id="contactNumber" min="1" max="99" required></td>
+            </tr>
+            <tr>
+               <td> <label for="emailId">Email</label></td>
+               <td> <input type="email" name="email" id="emailId" required></td>
+            </tr>
+            <tr>
+               <td> <label for="typeOfFood"> Type Of Food </label></td>
+               <td><input type="checkBox" name="typeOfFood" id="North Indian" value="North Indian" checked> North Indian
                 <input type="checkBox" name="typeOfFood" id="South Indian" value="South Indian"> South Indian
                 <input type="checkBox" name="typeOfFood" id="Western" value="Western"> Western
-                <input type="checkBox" name="typeOfFood" id="Chinese" value="Chinese"> Chinese
-            </div>
-            <div>
-                <label for="Room">Room </label>
-                <input type="radio" name="Room" id="AC" value="AC" checked>AC
-                <input type="radio" name="Room" id="Non-AC" value="Non-AC">Non-AC
-            </div>
-            <div>
-                <label for="venue">Venue Preference </label>
-                <select name="venue" id="venue">
+                <input type="checkBox" name="typeOfFood" id="Chinese" value="Chinese"> Chinese</td>
+            </tr>
+            <tr>
+               <td> <label for="Room">Room </label></td>
+                <td><input type="radio" name="Room" id="AC" value="AC" checked>AC
+                <input type="radio" name="Room" id="Non-AC" value="Non-AC">Non-AC</td>
+            </tr>
+            <tr>
+               <td> <label for="venue">Venue Preference </label></td>
+              <td> <select name="venue" id="venue">
                     <option value="">select</option>
                     <option value="goku">Goku</option>
                     <option value="Vegeta">Vegeta</option>
@@ -49,12 +52,14 @@
                     <option value="thor">Thor</option>
                     <option value="Wolverine">Wolverine</option>
                 </select>
-            </div>
-            <div>
-                <button type="submit">Submit</button>
-                <button type="reset">Reset</button>
-            </div>
+            </td> 
+            </tr>
+            <tr>
 
+             <td>   <button type="submit">Submit</button></td>
+             <td>   <button type="reset">Reset</button> </td>
+            </tr>
+        </table>
         </form>
     </Center>
 
