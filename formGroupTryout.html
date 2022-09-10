@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form group</title> 
+  <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <h3>Form - Without form group</h3>
+                <div>
+                    <label>Username</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="password" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4 offset-md-4" >
+                <h3>Form Group</h3>
+                <div  class="form-group">
+                    <label>Username</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+        </div>
+    </div>
+   
+    <div class="container-fluid">
+        <!--Inline form-->
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <h4>Inline form</h4>
+                <form class="form-inline">
+                    <div class="form-group"> 
+                        <label for="username">Username</label> 
+                        <input type="text" class="form-control" id="username" placeholder="Enter Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label> 
+                        <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <br>
+        <!--Vertical form - default alignment-->
+        <div class="row">
+            <div class="col-md-4 offset-md-4" >
+                <h4>Vertical form</h4>
+                <form> 
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
